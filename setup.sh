@@ -22,7 +22,7 @@ echo "Tenouse Mobile App - $tenouse_mobile"
 echo "Cloning into the current directory..."
 
 echo "Step 1/6 : Cloning Tenouse Main Server - $tenouse_main"
-# git clone $tenouse_main
+git clone $tenouse_main
 echo "Step 2/6 : Cloning Tenouse Admin Server - $tenouse_admin"
 git clone $tenouse_admin
 echo "Step 3/6 : Cloning Tenouse AI Server - $tenouse_ai"
